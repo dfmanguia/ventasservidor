@@ -112,8 +112,8 @@ if (l1.size()>=1)
     for (int i = 0; i < l1.size(); i++) {
         Object [] ar_objeto=(Object [])(l1.get(i));
         
-        list.add(new Venta(ar_objeto[0].toString(), ar_objeto[1].toString(), ar_objeto[2].toString(), ar_objeto[3].toString(),ar_objeto[3].toString()));
-        System.out.println(""+list.get(i).getVen_nombre());
+        list.add(new Venta(ar_objeto[0].toString(), ar_objeto[1].toString(), ar_objeto[2].toString(), ar_objeto[3].toString(),ar_objeto[4].toString()));
+        System.out.println("hola "+list.get(i).getVen_nombre());
     }
 } 
 
