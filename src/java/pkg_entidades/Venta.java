@@ -81,7 +81,5 @@ public class Venta {
     public void setListas(ArrayList<Venta> listas) {
         this.listas = listas;
     }
-    
-    
-    
+
 }
